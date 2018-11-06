@@ -2,10 +2,6 @@
 
 This project aims on developing a solar powered air quality monitoring IoT system which will read real time environmental data like temperature, humidity, smoke, C02, etc and transmit the data over long distance using a very efficient sub 1Ghz RF communication technique.
 
-
-## Block Diagram
-
-
 ## Problem Statement
 
 In order to scale the Internet-of-Things (IoT) to hundreds of billions of devices, efficient operations for IoT must be improved significantly – particularly for low-power, wide-area networking (LPWAN) for sending little, but important data.
