@@ -3,20 +3,20 @@
 This project aims on developing a solar powered air quality monitoring IoT system which will read real time environmental data like temperature, humidity, smoke, C02, etc and transmit the data over long distance using a very efficient sub 1Ghz RF communication technique.
 
 
-#Block Diagram
+## Block Diagram
 
 
-#Problem Statement
+## Problem Statement
 
 In order to scale the Internet-of-Things (IoT) to hundreds of billions of devices, efficient operations for IoT must be improved significantly – particularly for low-power, wide-area networking (LPWAN) for sending little, but important data.
 
 
-#Methodology
+## Methodology
 
 Consider the data is transmitted through channel (i.e. air) to a receiver located at a distance D from the transmitter. The transmitter is kept constant in a location and receiver is moved away in the distance of metres. So therefore, calculating the RSSI Value, gain, Packet collision simulation.
 
 
-#Technical Details
+## Technical Details
 
 The underlying principle is to use the popular Sub 1Ghz frequency bands RF modules to transmit the sensor data for the air quality monitoring systems. It monitors the real time data such as humidity, temperature using DHT22 Sensor and MQ-135 for detecting of NH3, N0x, alcohol, Benzene, Smoke, CO2, etc. As this will be placed in a remote area, it also uses solar power to charge the battery.
 
@@ -43,7 +43,7 @@ Advantage of developing and deploying this system are
 ·         High Data Rate
 ·         Can be scaled up easily by adding multiple node
 
-#Features of LoRa
+## Features of LoRa
 
 Modulation
 SS Chirp
@@ -69,11 +69,11 @@ Mobility
 Yes
 
 
-#Expected Results
+## Expected Results
 
 Should provide data transmission range in distance of 5 Km with tentative minimalist loss.
 
-#Measured Results
+## Measured Results
 
 By use of this module we were possibly able to achieve range of 4 to 5 Km at current range of mA. As the receiver moved away from the receive the 868 MHz 2 Dipole Antenna measured RSSI value of less than -180 dBm (depends upon the obstacle present).
 
